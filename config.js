@@ -8,11 +8,11 @@ const config = {
 
 	mysql_connection_string: {
 		connectionLimit: 100,
-		host: 'localhost',
-		port: 3306,
-		user: 'root',
-		password: '123456',
-		database: 'tail-f'
+		host     : process.env.MYSQL_ADDON_HOST,
+		database : process.env.MYSQL_ADDON_DB,  
+		user     : process.env.MYSQL_ADDON_USER,     	
+		password : process.env.MYSQL_ADDON_PASSWORD,	
+		database: 'bvxljx7ocmb3a1o67hi7'
 	},
 };
 
